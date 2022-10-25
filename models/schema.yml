@@ -6,18 +6,11 @@ models:
       description: "dbt 첫 학습"
 
 sources:
-  - name: sql_study
+  - name: sample
     database: sqlstudy-340606
-    schema: sql_study
+    schema: sample_data
     tables: 
       - name: ga
-      - name: accounts
-      - name: login
-
-  - name: dbt_glee
-    database: sqlstudy-340606
-    schema: dbt_glee
-    tables: 
       - name: payment
 
 metrics:

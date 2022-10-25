@@ -1,1 +1,1 @@
-SELECT * FROM {{source('sql_study','ga') }}
+SELECT * FROM {{source('sample','ga') }}

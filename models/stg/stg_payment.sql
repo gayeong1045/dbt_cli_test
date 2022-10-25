@@ -1,1 +1,1 @@
-SELECT * FROM {{source('dbt_glee','payment') }}
+SELECT * FROM {{source('sample','payment') }}
